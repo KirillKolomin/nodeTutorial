@@ -1,0 +1,17 @@
+{
+  "rulesDirectory": "src",
+  "rules": {
+    "max-line-length": {
+      "options": [120]
+    },
+    "quotemark": [true, "single"],
+    "semicolon": true,
+    "no-empty-interface": true,
+    "no-var-requires": true,
+    "no-console": {
+      "severity": "warn",
+      "options": ["debug", "info", "log", "time", "timeEnd", "trace"]
+    },
+    "only-arrow-functions": [true, "allow-named-functions"]
+  }
+}
